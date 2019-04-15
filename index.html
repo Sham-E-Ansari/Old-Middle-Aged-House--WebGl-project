@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>3D Old Middle Aged House!!!</title>
+		<style>
+		.button {
+			  background-color: skyblue;
+			  border: none;
+			  color: white;
+			  padding: 10px 15px;
+			  text-align: center;
+			  font-size: 14px;
+			  cursor: pointer;
+		}
+		.button:hover {
+		  background-color: deepSkyblue;
+		}
+		body{
+		
+			text-align: center;
+		
+		}
+		
+		</style>
+	</head>
+	<body onload="InitDemo();">
+		<script src="util.js"></script>
+		<script src="gl-matrix.js"></script>
+		<script src="app.js"></script>
+		<div>
+		<input type="button" class="button" id=button value="Change Camera Position" onClick = "changeCamera()">
+		<input type="button" class="button" id=button value="Change Rotation" onClick = "changeRotation()">
+		<input type="button" class="button" id=button value="Change Background color" onClick = "changeBackground()"><br>
+		 </div>
+		<canvas id="myCanvas" width="1340" height="600">
+			Your browser does not support HTML5
+		</canvas>
+		
+		<i>CSE4204 project by Md. Sham-E-Ansari, Shaminaj Towfika Disha, Syed Fahim Ahmed</i>
+		
+	</body>
+</html>
